@@ -1,0 +1,22 @@
+<tabs>
+    <tab
+        id="@+id/tab_feeds"
+        icon = "@drawable/ic_bottombar_feeds"
+        title="Feeds" />
+    <tab
+        id="@+id/tab_growth"
+        icon = "@drawable/ic_bottombar_growth"
+        title="Growth" />
+    <tab
+        id="@+id/tab_workout"
+        icon = "@drawable/ic_bottombar_workout"
+        title="Workout" />
+    <tab
+        id="@+id/tab_notify"
+        icon = "@drawable/ic_bottombar_notifications"
+        title="Notifications" />
+    <tab
+        id="@+id/tab_tuts"
+        icon = "@drawable/ic_bottombar_tutorials"
+        title="Tutorials" />
+</tabs>

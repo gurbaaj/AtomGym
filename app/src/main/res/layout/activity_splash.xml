@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.javahelps.atomgym.splash"
+    android:background="@color/colorBackground"
+    >
+
+
+    <ImageView
+        android:id="@+id/ivSplash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/splash_image"
+        android:foregroundGravity="center_vertical"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Gym"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:id="@+id/tvGym"
+        android:textColor="@color/colorWhite"
+        android:layout_marginRight="35dp"
+        android:layout_marginEnd="35dp"
+        android:layout_alignBaseline="@+id/tvLogo"
+        android:layout_alignBottom="@+id/tvLogo"
+        android:layout_alignRight="@+id/ivSplash"
+        android:layout_alignEnd="@+id/ivSplash" />
+
+    <TextView
+        android:text="Atom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:id="@+id/tvLogo"
+        android:textSize="25sp"
+        android:textColor="@color/colorLogo"
+        android:layout_below="@+id/ivSplash"
+        android:layout_toStartOf="@+id/tvGym"
+        android:layout_toLeftOf="@+id/tvGym" />
+</RelativeLayout>

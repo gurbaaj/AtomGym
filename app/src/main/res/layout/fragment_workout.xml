@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1000"
+    android:orientation="vertical"
+    tools:context="com.javahelps.atomgym.BottomFragments.WorkoutFragment">
+
+  <LinearLayout
+      android:layout_weight="370"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+
+
+      <TextView
+          android:id="@+id/calendar_months"
+          android:layout_marginTop="10dp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:text="Calendar"
+          android:textColor="@color/color_month_name"
+          android:textSize="@dimen/calendar_months_text" />
+
+      <com.prolificinteractive.materialcalendarview.MaterialCalendarView xmlns:app="http://schemas.android.com/apk/res-auto"
+          android:id="@+id/calendarView"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          app:mcv_calendarMode="week"
+          app:mcv_dateTextAppearance="@style/Calendar_text"
+          app:mcv_selectionColor="@color/dot_light_screen1"
+          app:mcv_showOtherDates="none"
+          app:mcv_tileHeight="40dp"
+          app:mcv_tileWidth="50dp"
+          app:mcv_weekDayTextAppearance="@style/Calendar_text" />
+
+  </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="300">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="370"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnDiet"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:background="@drawable/diet_button"
+            android:text="Diet Plan"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite"/>
+
+    </LinearLayout>
+
+</LinearLayout>

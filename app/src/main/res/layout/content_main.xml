@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.javahelps.atomgym.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <com.roughike.bottombar.BottomBar
+        android:id="@+id/bottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        app:bb_tabXmlResource="@xml/bottombar_tabs"
+        app:bb_showShadow="true"
+        android:background="@color/bottom_bar_color"
+        app:bb_titleTextAppearance="@style/bottombarText"
+        app:bb_activeTabColor="@color/dot_light_screen1"
+        app:bb_inActiveTabColor="@color/colorWhite"
+        />
+
+
+</RelativeLayout>

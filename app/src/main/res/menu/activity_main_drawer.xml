@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/facebook"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Link With Facebook" />
+        <item
+            android:id="@+id/notification"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Notification Settings" />
+        <item
+            android:id="@+id/changePassword"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Change Password" />
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="About Us" />
+        <item
+            android:id="@+id/terms"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Terms And Conditions" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Logout" />
+
+        </menu>
+    </item>
+
+</menu>

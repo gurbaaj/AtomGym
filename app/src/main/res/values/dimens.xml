@@ -1,0 +1,22 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">28dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="dots_height">40dp</dimen>
+    <dimen name="dots_margin_bottom">86.5dp</dimen>
+    <dimen name="img_width_height">120dp</dimen>
+    <dimen name="slide_title">34sp</dimen>
+    <dimen name="slide_desc">16sp</dimen>
+    <dimen name="desc_padding">40dp</dimen>
+    <dimen name="nav_text_dimen">15sp</dimen>
+    <dimen name="bottombar_text">10sp</dimen>
+    <dimen name="calendar_months_text">20sp</dimen>
+    <dimen name="calendar_main_text_size">15.4sp</dimen>
+    <dimen name="facebooklinktext_size">13.4sp</dimen>
+    <dimen name="TextsaveButtonforPassword">17.3sp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Atom Gym</string>
+    <string name="first_slide">Get that happy feeling</string>
+    <string name="second_slide">Boosting Your Self-Confidence</string>
+    <string name="third_slide">Get a boost in energy</string>
+    <string name="fourth_slide">Learn from the pros</string>
+    <string name="get_started">Get Started</string>
+    <string name="title_activity_main">Atom Gym</string>
+    <string name="facebook_link_text">By linking with facebook your feeds will automatically updated on Facebook also.</string>
+    <string name="AboutUs">Nothing to Show</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
